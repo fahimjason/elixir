@@ -20,8 +20,8 @@ defmodule Cards do
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
 
-    for suit <- suits do
-      suit
+    for suit <- suits, value <- values do 
+      "#{value} of #{suit}"
     end
   end
 
