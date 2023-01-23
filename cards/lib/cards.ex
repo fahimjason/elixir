@@ -1,20 +1,7 @@
 defmodule Cards do
   @moduledoc """
-  Documentation for `Cards`.
+  Provide methods for creating and handling and a deck of cards.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Cards.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five"]
