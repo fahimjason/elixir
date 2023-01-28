@@ -3,9 +3,6 @@ defmodule Cards do
   Provide methods for creating and handling and a deck of cards.
   """
 
-  @moduledoc """
-    Returns a list of strings representing a deck of playing cards.
-  """
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
@@ -33,7 +30,7 @@ defmodule Cards do
       iex> {hand, deck} = Cards.deal(deck, 1)
       iex> hand
         ["Ace of Spades"]
-        
+
   """
 
   def deal(deck, hand_size) do 
